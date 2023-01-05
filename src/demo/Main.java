@@ -99,6 +99,7 @@ public class Main {
 			// 人間グループに誰もいなくなれば、人間グループの敗北
 			if(humans.size() == 0) {
 				System.out.println("\n　####　人間達は敗北した..　####\n");
+				break;
 			}
 			
 			// 現在の各グループの状態を一覧表示
